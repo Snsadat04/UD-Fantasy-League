@@ -1,1 +1,98 @@
-<h1>Welcome to UD Fantasy S6</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fantasy League</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🏈 Fantasy League</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#standings">League Standings</a></li>
+        <li><a href="#stats">Player Stats</a></li>
+        <li><a href="#matchups">Matchups</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to [Your Fantasy League Name]!</h1>
+      <p>Track your team's progress, manage lineups, and claim the championship crown!</p>
+      <button class="cta">Join the League</button>
+      <button class="cta">Check Standings</button>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="feature">
+      <h2>Live League Updates</h2>
+      <p>Sync your team and follow real-time stats, scores, and updates via Sleeper.</p>
+    </div>
+    <div class="feature">
+      <h2>Player Insights</h2>
+      <p>Analyze player performances, projections, and waiver options.</p>
+    </div>
+    <div class="feature">
+      <h2>Custom Matchups</h2>
+      <p>Preview weekly matchups and projected outcomes.</p>
+    </div>
+  </section>
+
+  <section id="league-integration" class="integration">
+    <h2>Enter Your League ID</h2>
+    <input type="text" id="league-id" placeholder="Enter your Sleeper League ID">
+    <button id="sync-btn">Sync League</button>
+  </section>
+
+  <section id="standings" class="standings">
+    <h2>Top Teams</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Rank</th>
+          <th>Team Name</th>
+          <th>Record</th>
+          <th>Points Scored</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>The Iron Dragons</td>
+          <td>8-2</td>
+          <td>1125</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Shadow Panthers</td>
+          <td>7-3</td>
+          <td>1050</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Mystic Warriors</td>
+          <td>7-3</td>
+          <td>1045</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Fantasy League. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+      <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
